@@ -8,6 +8,7 @@ import javax.swing.*;
 
 public class EnigmaFrame extends JFrame{
 
+
     JComboBox<Integer> innerCombo = new JComboBox<>();
     JComboBox<Integer> middleCombo = new JComboBox<>();
     JComboBox<Integer> outerCombo = new JComboBox<>();
@@ -67,6 +68,7 @@ public class EnigmaFrame extends JFrame{
     public void addcomponents()
     {
         encryptButton.setBackground(Color.LIGHT_GRAY);
+        String z = encryptButton.getText();
         decryptButton.setBackground(Color.LIGHT_GRAY);
 
         for (int i =1; i<=5; i++){
